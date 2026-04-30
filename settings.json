@@ -1,6 +1,6 @@
 {
   "defaultThinkingLevel": "medium",
-  "theme": "dark",
+  "theme": "tokyonight",
   "hideThinkingBlock": false,
   "quietStartup": false,
   "compaction": {
