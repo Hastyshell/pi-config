@@ -1,3 +1,6 @@
+# Local dev shells
+.direnv/
+
 # Pi runtime/session artifacts
 sessions/*.jsonl
 sessions/**/*.jsonl
@@ -9,6 +12,7 @@ npm/
 git/
 
 # Secrets and local overrides
+auth.json
 .env
 .env.*
 *.local.json

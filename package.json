@@ -3,10 +3,13 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write \"extensions/**/*.ts\"",
+    "format:check": "prettier --check \"extensions/**/*.ts\""
   },
   "devDependencies": {
     "@mariozechner/pi-coding-agent": "0.70.6",
+    "prettier": "^3.8.3",
     "typebox": "^1.1.24",
     "typescript": "^5.9.3"
   }

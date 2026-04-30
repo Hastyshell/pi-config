@@ -6,6 +6,6 @@ export default function (pi: ExtensionAPI) {
     description: "Say hello from a sample extension",
     handler: async (args, ctx) => {
       ctx.ui.notify(`Hello ${args || "world"}!`, "info");
-    }
+    },
   });
 }
