@@ -23,7 +23,7 @@ npm install       # run once, provides local Pi/typebox types for the TS server
 npm run typecheck
 ```
 
-The development shell provides Node.js, TypeScript, and `typescript-language-server`. It also sets `PI_CODING_AGENT_DIR=$PWD` for local testing.
+The development shell provides Node.js, TypeScript, and `typescript-language-server`. It also sets `PI_CODING_AGENT_DIR=$PWD` for local config testing, so Pi will use this repository's `auth.json`, `settings.json`, and `sessions/` while inside `nix develop`.
 
 ## Testing Extensions
 
@@ -43,7 +43,7 @@ PI_CODING_AGENT_DIR=$PWD pi
 
 ## Directory Layout
 
-- `settings.json`: Global Pi settings
+- `settings.json`: Global Pi settings. Theme is intentionally not pinned here by default, so it can be switched via `/settings`.
 - `models.json`: Placeholder for custom providers and models
 - `AGENTS.md`: Context and collaboration guidelines loaded automatically by Pi
 - `APPEND_SYSTEM.md`: Additional instructions appended to the default system prompt
