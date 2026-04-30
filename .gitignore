@@ -1,0 +1,14 @@
+# Pi runtime/session artifacts
+sessions/*.jsonl
+sessions/**/*.jsonl
+.pi/sessions/
+
+# Local package installs for extensions/packages
+node_modules/
+npm/
+git/
+
+# Secrets and local overrides
+.env
+.env.*
+*.local.json
