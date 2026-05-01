@@ -23,6 +23,8 @@ npm install       # run once, provides local Pi/typebox types for the TS server
 npm run typecheck
 ```
 
+Vendored third-party extensions are excluded from the root typecheck/format workflow; see `VENDOR.md`.
+
 The development shell provides Node.js, TypeScript, and `typescript-language-server`. It also sets `PI_CODING_AGENT_DIR=$PWD` for local config testing, so Pi will use this repository's `auth.json`, `settings.json`, and `sessions/` while inside `nix develop`.
 
 ## Testing Extensions
@@ -49,9 +51,10 @@ PI_CODING_AGENT_DIR=$PWD pi
 - `APPEND_SYSTEM.md`: Additional instructions appended to the default system prompt
 - `prompts/`: Prompt templates, invoked with `/name`
 - `skills/`: Agent skills, invoked with `/skill:name`
-- `extensions/`: TypeScript extensions
+- `extensions/`: TypeScript extensions, including vendored third-party extensions documented in `VENDOR.md`
 - `themes/`: Custom themes
 - `sessions/`: Optional local session storage
 - `flake.nix`: Minimal development shell for TypeScript extension editing
 - `package.json`: Local TypeScript/LSP dependencies for extension development
-- `tsconfig.json`: TypeScript configuration for extension files
+- `tsconfig.json`: TypeScript configuration for local extension files
+- `VENDOR.md`: Notes for copied third-party extension code

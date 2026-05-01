@@ -11,5 +11,9 @@
   },
   "include": [
     "extensions/**/*.ts"
+  ],
+  "exclude": [
+    "extensions/files-widget/**/*.ts",
+    "extensions/pi-web-access/**/*.ts"
   ]
 }

@@ -21,5 +21,6 @@
   "warnings": {
     "anthropicExtraUsage": true
   },
-  "theme": "tokyonight-moon"
+  "theme": "tokyonight-moon",
+  "lastChangelogVersion": "0.71.0"
 }

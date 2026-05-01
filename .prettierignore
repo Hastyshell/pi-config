@@ -1,2 +1,6 @@
 node_modules
 sessions
+
+# Vendored third-party extensions; update manually from upstream.
+extensions/files-widget
+extensions/pi-web-access
