@@ -18,11 +18,6 @@
   "steeringMode": "one-at-a-time",
   "followUpMode": "one-at-a-time",
   "enableSkillCommands": true,
-  "enabledModels": [
-    "claude-*",
-    "gpt-4o*",
-    "gemini-2*"
-  ],
   "warnings": {
     "anthropicExtraUsage": true
   },
