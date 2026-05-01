@@ -4,9 +4,7 @@ In-terminal file browser and diff viewer widget for Pi. Navigate files, view dif
 
 Directory symlinks are shown with a `↗` marker and can be expanded like normal folders.
 
-<video controls autoplay loop muted playsinline>
-  <source src="demo.mp4" type="video/mp4" />
-</video>
+Demo video: https://raw.githubusercontent.com/tmustier/pi-extensions/main/files-widget/demo.mp4
 
 ## Install
 
