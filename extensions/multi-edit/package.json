@@ -1,0 +1,9 @@
+{
+  "name": "pi-multi-edit",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "diff": "8.0.2"
+  }
+}
